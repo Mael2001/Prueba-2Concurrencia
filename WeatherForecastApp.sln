@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC97309E-560C-4DFB-BDE4-342576B66706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastApp.API", "src\WeatherForecastApp.API\WeatherForecastApp.API.csproj", "{C28226D8-9EE6-4F56-983C-701601FF2F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecastApp.API", "src\WeatherForecastApp.API\WeatherForecastApp.API.csproj", "{C28226D8-9EE6-4F56-983C-701601FF2F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecastApp.Console", "WeatherForecastApp.Console\WeatherForecastApp.Console.csproj", "{D7ADD484-FEDD-4703-B059-2067C1459CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService", "Prueba\WeatherService.csproj", "{EC64E0CB-8187-4B85-9CFF-86B4E02F5245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,22 @@ Global
 		{C28226D8-9EE6-4F56-983C-701601FF2F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28226D8-9EE6-4F56-983C-701601FF2F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C28226D8-9EE6-4F56-983C-701601FF2F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7ADD484-FEDD-4703-B059-2067C1459CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7ADD484-FEDD-4703-B059-2067C1459CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7ADD484-FEDD-4703-B059-2067C1459CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7ADD484-FEDD-4703-B059-2067C1459CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC64E0CB-8187-4B85-9CFF-86B4E02F5245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC64E0CB-8187-4B85-9CFF-86B4E02F5245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC64E0CB-8187-4B85-9CFF-86B4E02F5245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC64E0CB-8187-4B85-9CFF-86B4E02F5245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C28226D8-9EE6-4F56-983C-701601FF2F66} = {BC97309E-560C-4DFB-BDE4-342576B66706}
+		{D7ADD484-FEDD-4703-B059-2067C1459CC4} = {BC97309E-560C-4DFB-BDE4-342576B66706}
+		{EC64E0CB-8187-4B85-9CFF-86B4E02F5245} = {BC97309E-560C-4DFB-BDE4-342576B66706}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {686FD560-2275-4209-A3D9-7BFD12A17459}
